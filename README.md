@@ -1,10 +1,10 @@
 # Slash2
 Unreal Engine5を用いて製作中のオープンワールドアクションゲーム
-![Image or GIF](./path/to/image-or-gif)
+
 
 ## マップ 
 Unreal Engine5のオープンワールドツールを使用してマップを制作
-
+![Image or GIF](./Slash2/Image&gif/マップ飛行.gif)
 
 ## 使い方 (Usage)
 
@@ -22,6 +22,4 @@ Unreal Engine5のオープンワールドツールを使用してマップを制
 
 - Twitter: [Kotabrog](https://twitter.com/Kotabrog)
 
-## ライセンス (License)
 
-このプロジェクトはMITライセンスの下で公開されています。詳細は[LICENSE](https://......)を参照してください。
