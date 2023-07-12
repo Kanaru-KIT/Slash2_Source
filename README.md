@@ -31,16 +31,20 @@ Unreal Engine5のオープンワールドツールを使用してマップを制
 
 武器が敵との衝突地点を検出(BoxTrace)
 
+<div align="center">
+<img src="./Source/Slash2/Image/impactPoint.png" width="400">
+</div>
+
+攻撃方向に応じてリアクションをとるように
+
+<div align="center">
+<img src="./Source/Slash2/Image/hitReact.gif" width="400">
+</div>
 ## 敵の機能 (Enemy.cpp)
 
 - ここにこのプロジェクトの主な機能をリストアップします。
 
 ## 参考文献 (References)
-
-- ここにこのプロジェクトに参考にした文献やリンクをリストアップします。
-
-## 著者 (Author)
-
-- Twitter: [Kotabrog](https://twitter.com/Kotabrog)
+https://www.udemy.com/course/unreal-engine-5-the-ultimate-game-developer-course/
 
 
