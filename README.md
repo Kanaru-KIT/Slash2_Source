@@ -20,6 +20,15 @@ Unreal Engine5のオープンワールドツールを使用してマップを制
 
 段差に合わせて足を曲げるように調整
 
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./Source/Slash2/Image/floatingFoot.png" width="400"></td>
+      <td><img src="./Source/Slash2/Image/groundFoot.png" width="400"></td>
+    </tr>
+  </table>
+</div>
+
 武器が敵との衝突地点を検出(BoxTrace)
 
 ## 敵の機能 (Enemy.cpp)
