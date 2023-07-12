@@ -4,13 +4,21 @@ Unreal Engine5を用いて製作中のオープンワールドアクションゲ
 
 ## マップ 
 Unreal Engine5のオープンワールドツールを使用してマップを制作
-![Image or GIF](./Slash2/Image&gif/マップ飛行.gif)
+<div align="center">
+<img src="./Source/Slash2/Image/mapFly.gif" width="400">
+</div>
 
-## 使い方 (Usage)
 
-1. このプロジェクトの使用方法について、具体的な手順を書いてください。
 
-## 機能 (Features)
+
+## プレイヤーの機能　(SlashCaharacter.cpp)
+歩行，走行，ジャンプ，攻撃 
+
+段差に合わせて足を曲げるように調整
+
+武器が敵との衝突地点を検出(BoxTrace)
+
+## 敵の機能 (Enemy.cpp)
 
 - ここにこのプロジェクトの主な機能をリストアップします。
 
