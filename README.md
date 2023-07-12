@@ -12,7 +12,11 @@ Unreal Engine5のオープンワールドツールを使用してマップを制
 
 
 ## プレイヤーの機能　(SlashCaharacter.cpp)
-歩行，走行，ジャンプ，攻撃 
+歩行，走行，ジャンプ，攻撃
+
+<div align="center">
+<img src="./Source/Slash2/Image/PlayerAction_AdobeExpress.gif" width="400">
+</div>
 
 段差に合わせて足を曲げるように調整
 
