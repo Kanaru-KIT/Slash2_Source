@@ -18,7 +18,9 @@ Unreal Engine5のオープンワールドツールを使用してマップを制
 <img src="./Source/Slash2/Image/PlayerAction_AdobeExpress.gif" width="400">
 </div>
 
+
 段差に合わせて足を曲げるように調整
+
 
 <div align="center">
   <table>
@@ -35,14 +37,14 @@ Unreal Engine5のオープンワールドツールを使用してマップを制
 <img src="./Source/Slash2/Image/impactPoint.png" width="400">
 </div>
 
+
+
+## 敵の機能 (Enemy.cpp)
 攻撃方向に応じてリアクションをとるように
 
 <div align="center">
 <img src="./Source/Slash2/Image/hitReact.gif" width="400">
 </div>
-## 敵の機能 (Enemy.cpp)
-
-- ここにこのプロジェクトの主な機能をリストアップします。
 
 ## 参考文献 (References)
 https://www.udemy.com/course/unreal-engine-5-the-ultimate-game-developer-course/
