@@ -5,7 +5,7 @@ Unreal Engine5を用いて製作中のオープンワールドアクションゲ
 ## マップ 
 Unreal Engine5のオープンワールドツールを使用してマップを制作
 ![Image or GIF](./Slash2/Image/mapFly.gif)
-<img src="./Slash2/Image/mapFly.gif" width="500">
+<img src="./Source/Slash2/Image/mapFly.gif" width="500">
 
 
 ## 使い方 (Usage)
