@@ -12,22 +12,41 @@ Unreal Engine5のオープンワールドツールを使用してマップを制
 
 
 ## プレイヤーの機能　(SlashCaharacter.cpp)
-歩行，走行，ジャンプ，攻撃 
+歩行，走行，ジャンプ，攻撃
+
+<div align="center">
+<img src="./Source/Slash2/Image/PlayerAction_AdobeExpress.gif" width="400">
+</div>
+
 
 段差に合わせて足を曲げるように調整
 
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="./Source/Slash2/Image/floatingFoot.png" width="400"></td>
+      <td><img src="./Source/Slash2/Image/groundFoot.png" width="400"></td>
+    </tr>
+  </table>
+</div>
+
 武器が敵との衝突地点を検出(BoxTrace)
 
-## 敵の機能 (Enemy.cpp)
+<div align="center">
+<img src="./Source/Slash2/Image/impactPoint.png" width="400">
+</div>
 
-- ここにこのプロジェクトの主な機能をリストアップします。
+
+
+## 敵の機能 (Enemy.cpp)
+攻撃方向に応じてリアクションをとるように
+
+<div align="center">
+<img src="./Source/Slash2/Image/hitReact.gif" width="400">
+</div>
 
 ## 参考文献 (References)
-
-- ここにこのプロジェクトに参考にした文献やリンクをリストアップします。
-
-## 著者 (Author)
-
-- Twitter: [Kotabrog](https://twitter.com/Kotabrog)
+https://www.udemy.com/course/unreal-engine-5-the-ultimate-game-developer-course/
 
 
