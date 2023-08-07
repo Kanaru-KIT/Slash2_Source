@@ -85,7 +85,9 @@ void ASlashCharacter::EKeyPressed()
 	AWeapon* OverlappingWeapon = Cast<AWeapon>(OverlappingItem);
 	if (OverlappingWeapon)
 	{
-		OverlappingWeapon->Equip(GetMesh(), FName("RightHandSocket"));
+		OverlappingWeapon->Equip(GetMesh(), FName("RightHandSocket"), this, this);
+		OverlappingWeapon->SetOwner(this);
+		OverlappingWeapon->SetInstigator(this);
 		CharacterState = ECharacterState::ECS_EquippedOneHandedWeapon;
 		OverlappingItem = nullptr;
 		EquippedWeapon = OverlappingWeapon;
@@ -169,9 +171,9 @@ void ASlashCharacter::PlayAttackMontage()
 		case 0:
 			SectionName = FName("Attack1");
 			break;
-		//case 1:a
-			//SectionName = FName("Attack2");
-			//break;
+		case 1:
+			SectionName = FName("Attack2");
+			break;
 		default:
 			break;
 		}
